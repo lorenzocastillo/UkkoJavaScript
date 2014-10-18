@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="20" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="UkkoMapTiles1" tilewidth="48" tileheight="48">
+  <image source="UkkoMapTiles1.png" width="1536" height="1536"/>
+ </tileset>
+ <layer name="Background" width="80" height="20" opacity="0.43">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA7VX223DMAxUvttN3E2a/Zdwh4g/SkQgTN2DygGGID8oUjoe6eMxxs91nWOMv/Eev65739d1/D+PeX6PHQ9ynQB6D9nP/iL/VfsxrmyjvaueV2sh38/39lHrVH4hf6o5ivPOPtp35DMbG3u+AfYMqtjQniB/2PdXe8VyWPVttdcBRiuynS7UXD8XviFfd+lOfi/HgtaL+e91PafvHThcUWqAq8lKrQkoPN/NP0UzurqAzkvlZ6Dyo7qf9dPBym61vqPJCp/Uswk4fO6C1et53JV73dzO+sf2JjF+Wv9W/Z/LK7VHUfSPyX2Uuyov2bNf6Z+ra11exv3uf0MHjo4r/Z67Z6yufKpmudpUnemd/qF+3dU5NXa2z1S/Y/+jVC3qxOTyQI1lV41y8ynrs6N/bq/sxqzy0NUCteaNG/6pvcKukbWP6nD3jNFezvOKf2ruurnh6luX95X9GXnOoBObquksT9zcZ+3NPOtC1VSUS7t1UNVlNde7cOoq8pXlJeot3Dqs8L6LF4UY6NAAGQAA
+  </data>
+ </layer>
+ <layer name="Middle" width="80" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TuQ3CQBQFNwQCriqAgKsKIOCqAkg4quASdXAF0AUQQCfUwFhoJQeW+BZC9qI/0gR+3sCyZo1RFEVRFEVRFEVR/o0s5jAf9Yc4ShVrWI/6QyLi23662MP+h3MJTGJKuLvCt/1McIqzD+cKWMSScHeFoH5+0UgDm9gS7q4Q1E+YRqT/doBDHAl3lwnTiPT+zXGBS+EeB+74wDRmAnaLfd/GjgnXiPT+bXGHe+EeB554wjNWfLvdLGXfNjbhGpHevwte8Sbc44DX2QrX5t2V5YBH3/PGd87r8gVWidUCABkAAA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="80" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2YSwrCMBRF05EDRZfhQNE9WGeKLkTRNfgbqYvwO1FX4qcr0W7BO8ijpRBrk9KGNAcONQ9CVd5NH2VML25cixxPrkWON9ciRxlWJPd2HMZcSbtOmr8iPxqwKbn3Dh/wAq8J1nQ1gS1XhgEcwhf0YA/2Q/UqC/rb4+saU+t53VB5/k7gFH6gD0dwHKq3WNDfPl+3mVrP64bK89fmV+35S7mlPIpyS3XKN+XYBNZwI7mXckt5FOWW6pRvyrGulDK6j6n5rWd0nwPc8+sRnuDuz9o5o+8Yxwxz6Bwu4PLH55Uh86pFDdsj8YjO7yTnejSXRfpvRed3Vue6zqi8c3AL1EMiRLNztG7SjJ0motk5Wtd9xs4L1f77AmxiAkcAGQAA
+  </data>
+ </layer>
+ <objectgroup name="Ground" width="80" height="20">
+  <object x="3076" y="772" width="767" height="7"/>
+  <object x="999" y="579" width="451" height="7"/>
+  <object x="-111" y="674" width="460" height="4"/>
+  <object x="514" y="722" width="171" height="4"/>
+  <object x="2447" y="146" width="770" height="5"/>
+ </objectgroup>
+ <objectgroup name="Key" width="80" height="20"/>
+ <objectgroup name="OneSidedPlatform" width="80" height="20"/>
+ <objectgroup name="BreakableGround" width="80" height="20"/>
+ <objectgroup name="Trampoline" width="80" height="20">
+  <object x="2568" y="864"/>
+ </objectgroup>
+ <objectgroup name="MonkeyBar" width="80" height="20">
+  <object x="2475" y="526" width="706" height="9"/>
+ </objectgroup>
+ <objectgroup name="BrokenPlatform" width="80" height="20"/>
+ <objectgroup name="Poly" width="80" height="20"/>
+ <objectgroup name="PlatformSensor" width="80" height="20"/>
+ <objectgroup name="Wall" width="80" height="20">
+  <object x="995" y="580" width="12" height="43"/>
+  <object x="3076" y="777" width="17" height="191"/>
+  <object x="3835" y="9" width="8" height="837"/>
+  <object x="1439" y="582" width="15" height="39"/>
+  <object x="1009" y="609" width="430" height="13"/>
+  <object x="339" y="676" width="13" height="42"/>
+  <object x="508" y="726" width="14" height="40"/>
+  <object x="677" y="724" width="13" height="42"/>
+  <object x="3204" y="171" width="10" height="348"/>
+  <object x="2446" y="149" width="6" height="375"/>
+  <object x="1730" y="-10" width="94" height="488"/>
+  <object x="2450" y="510" width="757" height="10"/>
+  <object x="-12" y="114" width="18" height="816"/>
+ </objectgroup>
+ <objectgroup name="Orb" width="80" height="20">
+  <object x="2448" y="96"/>
+  <object x="2576" y="56">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="2696" y="98"/>
+  <object x="2988" y="60">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="3146" y="72"/>
+  <object x="3322" y="88">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="3358" y="182"/>
+  <object x="3398" y="290">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="3412" y="404"/>
+  <object x="3418" y="526">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="3418" y="642"/>
+  <object x="1108" y="429"/>
+  <object x="1144" y="465"/>
+  <object x="1198" y="485"/>
+  <object x="1303" y="467"/>
+  <object x="1346" y="426"/>
+  <object x="1188" y="344">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1258" y="344">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1252" y="485"/>
+  <object x="2542" y="711"/>
+  <object x="2590" y="712"/>
+  <object x="2685" y="711">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="2638" y="660">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="2638" y="763">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="2637" y="712"/>
+  <object x="2665" y="738"/>
+  <object x="2661" y="684"/>
+  <object x="34" y="626"/>
+  <object x="128" y="610"/>
+  <object x="206" y="634"/>
+  <object x="292" y="616"/>
+ </objectgroup>
+ <objectgroup name="WaterfallPlatform" width="80" height="20">
+  <object x="816" y="790">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="816" y="624">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="817" y="452">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="818" y="288">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="1629" y="385">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="1632" y="50">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+  <object x="1967" y="528">
+   <properties>
+    <property name="Type" value="1"/>
+   </properties>
+  </object>
+  <object x="1967" y="720">
+   <properties>
+    <property name="Type" value="1"/>
+   </properties>
+  </object>
+  <object x="1967" y="908">
+   <properties>
+    <property name="Type" value="1"/>
+   </properties>
+  </object>
+  <object x="2254" y="576">
+   <properties>
+    <property name="Type" value="2"/>
+   </properties>
+  </object>
+  <object x="2256" y="194">
+   <properties>
+    <property name="Type" value="2"/>
+   </properties>
+  </object>
+  <object x="2258" y="382">
+   <properties>
+    <property name="Type" value="2"/>
+   </properties>
+  </object>
+  <object x="2256" y="768">
+   <properties>
+    <property name="Type" value="2"/>
+   </properties>
+  </object>
+  <object x="1968" y="336">
+   <properties>
+    <property name="Type" value="1"/>
+   </properties>
+  </object>
+  <object x="1632" y="770">
+   <properties>
+    <property name="Type" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Life" width="80" height="20">
+  <object x="2831" y="94"/>
+ </objectgroup>
+ <objectgroup name="Doors" width="80" height="20">
+  <object name="Door" x="3654" y="766" width="39" height="8">
+   <properties>
+    <property name="DoorDestination" value="2"/>
+   </properties>
+  </object>
+  <object x="580" y="722" width="40" height="10"/>
+ </objectgroup>
+ <objectgroup name="Waterfall" width="80" height="20">
+  <object x="3263" y="900"/>
+  <object x="3505" y="902"/>
+  <object x="3745" y="902"/>
+ </objectgroup>
+ <objectgroup name="Flame" width="80" height="20">
+  <object x="1222" y="506"/>
+  <object x="3814" y="700"/>
+  <object x="3526" y="699"/>
+ </objectgroup>
+</map>

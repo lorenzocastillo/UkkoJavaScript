@@ -1,0 +1,12 @@
+SCORE = 0;
+ORBS = 0;
+LIVES = 3;
+DOORDESTINATION = 0;
+DOORLOCKED = false;
+BUTTON = false;
+CLOUDXPOS = 0;
+ORBCHANGED = false;
+LIFECHANGED = false;
+ORBLIFE = false;
+GAMEISOVER = false;
+CANLOADSCENE = false;

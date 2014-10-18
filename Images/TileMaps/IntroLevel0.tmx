@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="47" height="16" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="UkkoMapTiles1" tilewidth="48" tileheight="48">
+  <image source="UkkoMapTiles1.png" width="1536" height="1536"/>
+ </tileset>
+ <layer name="Background" width="47" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UQQrAMAgEzbn9Sfv/T7WPaC5CkG5cMT0UHAiBTWs2KooURfEH7r4ucj+ayNl4fevaPtHtf9n4KC7So/HRd+z5SMQH2tUfmwcvDqqH5at+ieYX9RfyLcn7PR/RPvXutazux9V1tP5GmLpl38H2vZ6jfFoiXryZl51tb29UzZs5RcHwANWscrPACwAA
+  </data>
+ </layer>
+ <layer name="Middle" width="47" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA9WUyU0DQRREZ4btAIIcWA+AzRIBNjewzRIBXME2SwQQAMQAAbCEgNkkDhADZrtBCjyLKemraWks+dL+0lPPVFdX97S+JpdEUR7mYB4WYBGmYQae4ijKZXhmk/Y8raxOc+x5ylCBNViHDdiEFVhNvVmeUhs5pTSr0xx7nhrUYQ/24QAOYQd2U2+Wp9pGTjXN6jTHnuee5wd4hAbcwl3cHfoHfMIXNOEN3rtE7+Pu+2EAEuiB3qQ79AmYhCkYhTEYD0R3q8BdFw2qJbwFjz8kvQwVGIYRo2/h2/ZkhKTXoA45yBv9CN+xJyMkvXXmK7iO/u5fdYbv3JMRkq771v2rbvA1PBkh6epzt99f8TU9GSHpuneNxThclmP/2fW/sf1/auaf4cXzrRq1Rr4TZ737bvez88qRrn6wPaHSXur3lncQhuDSrP2Gn+h/j2nUGvkunPXuu93PzitHur7B/gNV7pl+AS5y6X7ACwAA
+  </data>
+ </layer>
+ <layer name="Foreground" width="47" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMAuqCw0B8BIiPAvGxAXYLIcCLxn4MxE+A+CkQPxsQFxEPdHGwhwLwxcEeCiAXB3sogF4c7KEA1uJgwwB6uXN8EImdRXInMhsG0Mud54NI7C2SO5HZQwGgl+9DCRAq3wGrtdI+wAsAAA==
+  </data>
+ </layer>
+ <objectgroup name="Ground" width="47" height="16">
+  <object x="-41" y="627" width="1929" height="9"/>
+  <object x="2020" y="291" width="532" height="8"/>
+ </objectgroup>
+ <objectgroup name="OneSidedPlatform" width="47" height="16">
+  <object x="1704" y="505"/>
+  <object x="1703" y="377"/>
+ </objectgroup>
+ <objectgroup name="BreakableGround" width="47" height="16">
+  <object x="1967" y="339"/>
+  <object x="1969" y="437"/>
+  <object x="1968" y="529"/>
+  <object x="1969" y="624"/>
+  <object x="1968" y="723"/>
+ </objectgroup>
+ <objectgroup name="Trampoline" width="47" height="16"/>
+ <objectgroup name="Doors" width="47" height="16"/>
+ <objectgroup name="Orb" width="47" height="16">
+  <object x="748" y="543">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="432" y="526"/>
+  <object x="494" y="599">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="868" y="565"/>
+  <object x="563" y="514"/>
+  <object x="414" y="588"/>
+  <object x="918" y="512">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="323" y="523"/>
+  <object x="956" y="539"/>
+  <object x="377" y="602">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="681" y="529"/>
+  <object x="691" y="563"/>
+  <object x="868" y="535"/>
+  <object x="703" y="598">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="430" y="556"/>
+  <object x="1069" y="542">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="563" y="576"/>
+  <object x="434" y="492">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="341" y="584"/>
+  <object x="493" y="514"/>
+  <object x="324" y="491">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="494" y="569"/>
+  <object x="954" y="511">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </object>
+  <object x="1070" y="598">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1048" y="514"/>
+  <object x="761" y="572"/>
+  <object x="868" y="490">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="571" y="546">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1093" y="514"/>
+  <object x="647" y="530"/>
+  <object x="781" y="598"/>
+  <object x="758" y="508"/>
+  <object x="812" y="496">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="530" y="494"/>
+  <object x="1106" y="484">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1070" y="569"/>
+  <object x="955" y="599">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="988" y="511">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="953" y="481"/>
+  <object x="868" y="598"/>
+  <object x="493" y="543"/>
+  <object x="664" y="563"/>
+  <object x="627" y="598">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="636" y="563"/>
+  <object x="323" y="554"/>
+  <object x="1035" y="484">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="787" y="483"/>
+  <object x="955" y="569"/>
+  <object x="813" y="589">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="662" y="492">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="529" y="597"/>
+  <object x="496" y="488">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1968" y="267">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="2017" y="235">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1921" y="235">
+   <properties>
+    <property name="Type" value="100"/>
+   </properties>
+  </object>
+  <object x="1967" y="223"/>
+  <object x="1969" y="182"/>
+  <object x="1970" y="137"/>
+  <object x="1945" y="251"/>
+  <object x="1991" y="248"/>
+ </objectgroup>
+ <objectgroup name="Wall" width="47" height="16">
+  <object x="2021" y="297" width="13" height="476"/>
+  <object x="1875" y="299" height="1"/>
+  <object x="1875" y="300" width="43" height="469"/>
+  <object x="2250" y="-55" width="9" height="351"/>
+  <object x="-2" y="-39" width="5" height="782"/>
+ </objectgroup>
+ <objectgroup name="SceneChanger" width="47" height="16">
+  <object x="1844" y="724" width="228" height="60">
+   <properties>
+    <property name="DoorDestination" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Waterfall" width="47" height="16">
+  <object x="97" y="711"/>
+  <object x="721" y="708"/>
+  <object x="1585" y="709"/>
+  <object x="2161" y="470"/>
+ </objectgroup>
+ <objectgroup name="Life" width="47" height="16"/>
+ <objectgroup name="Poly" width="47" height="16">
+  <object x="1878" y="287">
+   <polyline points="0,0 19,14 43,11"/>
+  </object>
+ </objectgroup>
+</map>
